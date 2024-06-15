@@ -10,7 +10,7 @@ import spacy  # Import spacy for NLP operations
 philosopher = spacy.load('en_core_web_sm')
 
 # Read and process the text file
-with open('dio_bot.txt', 'r', errors='ignore') as f:  # Open the file 'dio_bot.txt' in read mode
+with open('dio_bot_corpus.txt', 'r', errors='ignore') as f:  # Open the file 'dio_bot.txt' in read mode
     raw_dialogue = f.read().lower()  # Read the content of the file and convert it to lowercase
 
 # Tokenize the sentences and words using spaCy
